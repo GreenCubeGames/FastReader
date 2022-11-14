@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Reader : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class Reader : MonoBehaviour
     public string fullText;
     public int actualWord = 0;
 
-    public Text showWord;
+    public TextMeshProUGUI showWord;
 
     public float speed;
     float timer;
